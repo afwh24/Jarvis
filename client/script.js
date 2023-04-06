@@ -98,7 +98,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   //Fetch data from server API (bot response)
-  const response = await fetch('http://localhost:3000', {
+  const response = await fetch('https://jarvis-vozo.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
